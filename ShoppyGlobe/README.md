@@ -1,25 +1,37 @@
+                        ShoppyGlobe(Online Product Store)
+
+1. Github Link :https://github.com/RudraPratap-CodeRunner/ShoppyGlobe
+
+2. Steps to run the project 
+   A. download the project
+   B. npm install
+   c. npm run dev
+
+
+
+3. folder structure of the project
 shoppyglobe/
 │
 ├── public/
-│   └── index.html
+│   └── 
 │
 ├── src/
 │   ├── assets/
-│   │   └── logo.png (if any static images)
+│   │   └── 
 │   │
 │   ├── components/
+│     │     ├── Cart.jsx
+│     │     ├── CartItem.jsx
 │   │   ├── Header.jsx
+│         ├── NotFound.jsx
+│         ├── ProductDetail.jsx
 │   │   ├── ProductItem.jsx
-│   │   ├── CartItem.jsx
-│   │   └── PageWrapper.jsx
+│   │   ├── ProductList.jsx
+│   │   
 │   │
 │   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── ProductList.jsx
-│   │   ├── ProductDetail.jsx
-│   │   ├── Cart.jsx
 │   │   ├── Checkout.jsx
-│   │   └── NotFound.jsx
+│   │   
 │   │
 │   ├── redux/
 │   │   ├── store.js
